@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.footer1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-logo{
+    color:#2F1C6A;
+    width: 147px;
+    height: 30px;
+}
+.footer-social{
+    display: flex;
+}
+
+
+.logo-linkedin{
+    width: 32px;
+    height: 32px;
+}
+
