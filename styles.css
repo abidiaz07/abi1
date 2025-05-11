@@ -16,6 +16,62 @@ body {
     font-family: 'DM sans', sans-serif;
 }
 
+header {
+    display: flex;
+
+}
+
+.logo-img {
+    padding: 29px 0 29px 40px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px 40px;
+    max-height: 88px;
+    min-height: 88px;
+    align-items: center;
+}
+
+.menu a {
+    color: #1d1e20;
+}
+
+.header-options {
+    display: flex;
+    gap: 32px;
+}
+
+.header-options a i {
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.header-login {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+
+.language {
+    display: flex;
+    gap: 4px;
+    font-weight: 700;
+
+}
+
+
+.login-button {
+    border: black solid 2px;
+    padding: 12px 16px;
+    border-radius: 8px;
+    font-weight: 700;
+    color: black;
+}
+
+
 .container {
     max-width: 1128px;
     width: 1128px;
@@ -119,7 +175,7 @@ h1 {
 a {
     text-decoration: none;
     color: var(--primary-color);
-    font-family: sans-serif;
+    font-family: 'DM sans', sans-serif;
 }
 
 .container-wrapper {
@@ -241,7 +297,7 @@ a {
 .and-more {
     color: var(--secondary-color);
     font-size: 14px;
-    font-family: sans-serif;
+    font-family: 'DM sans', sans-serif;
     font-weight: 700;
     text-decoration: none;
 }
