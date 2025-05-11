@@ -8,6 +8,7 @@
     --primary-color: #2f1c6a;
     --secondary-color: #673de6;
     --terciary-color: #e2dbfc;
+    --button-hover: #5025d1;
 }
 
 body {
@@ -18,6 +19,7 @@ body {
 .container {
     max-width: 1128px;
     width: 1128px;
+
 }
 
 
@@ -25,13 +27,17 @@ body {
     display: flex;
     padding-top: 36px;
     padding-bottom: 96px;
-
+    padding-inline: 80px;
 }
 
 .hero-prices {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     font-weight: 700;
     font-size: 20px;
     margin: 8px 0px 0px;
+    align-items: start;
 }
 
 .hero-list {
@@ -80,16 +86,16 @@ h1 {
 }
 
 
-.claim-deal {
+.button-hover {
     padding-block: 12px;
     padding-inline: 48px;
     border-radius: 8px;
     color: white;
-    background-color: var(--secondary-color);
+    background-color: var(--secondary-color)
 }
 
-.claim-deal:hover {
-    background-color: var(--primary-color);
+.button-hover:hover {
+    background-color: var(--button-hover)
 }
 
 .countdown {
@@ -105,7 +111,7 @@ h1 {
     font-weight: 400;
     align-items: center;
     gap: 4px;
-    
+
 }
 
 
@@ -119,13 +125,75 @@ a {
 .container-wrapper {
     display: flex;
     justify-content: center;
-    padding-inline: 40px;
-    padding-top: 10px;
+    padding-block: 36px;
 }
 
-.footer-background{
+.migration-background {
+    background-color: #1f1346;
+    color: white;
+
+}
+
+.migration {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-block: 80px;
+}
+
+.migration h2 {
+    margin-bottom: 24px;
+}
+
+.p-headline {
+    margin-bottom: 48px;
+}
+
+
+.bi {
+    font-size: 24px;
+}
+
+.card-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    border-radius: 4px;
+    background-color: var(--secondary-color);
+}
+
+.migration-cards {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 24px;
+
+}
+
+.migration-card {
+    background-color: var(--primary-color);
+    border-radius: 16px;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 33.33%;
+}
+
+
+.filter-white {
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(104deg) brightness(106%) contrast(101%);
+
+}
+
+
+
+
+.footer-background {
     background-color: #f4f5ff;
 }
+
 .footer1 {
     display: flex;
     justify-content: space-between;
@@ -145,9 +213,9 @@ a {
     height: 32px;
 }
 
-.filter-primary-color{
+.filter-primary-color {
     filter: invert(10%) sepia(71%) saturate(3897%) hue-rotate(251deg) brightness(82%) contrast(94%);
-    
+
 }
 
 .footer2 {
