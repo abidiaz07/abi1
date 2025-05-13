@@ -97,6 +97,13 @@ header {
 
 }
 
+.hero-content {
+    display: flex;
+    justify-content: center;
+    max-width: 1392px;
+
+}
+
 
 .hero {
     display: flex;
@@ -115,7 +122,9 @@ header {
     align-items: start;
 }
 
-
+.up-to{
+    margin-top: 8px;
+}
 
 
 
@@ -360,11 +369,14 @@ a {
     .hero {
         padding-inline: 40px;
     }
+    .hero-content{
+        max-width: 1128px;
+    }
 }
 
 
 @media (width <=1172px) {
-    .hero {
+    .hero-content {
         display: block;
     }
 
@@ -396,6 +408,11 @@ a {
         font-size: 28px;
     }
 
+    .hero-content{
+        max-width: 688px;
+
+    }
+
     .migration-card {
         width: 100%;
 
@@ -407,6 +424,7 @@ a {
 
     .migration {
         max-width: 768px;
+        padding-inline: 16px;
     }
 
     .footer2 {
@@ -418,9 +436,16 @@ a {
         flex-direction: column;
         row-gap: 16px;   
     }
+    .hero {
+        padding-inline: 16px;
+    }
 
     .hero-img{
         flex-direction: column;
+    }
+
+    .footer-wrapper{
+        padding: 16px 16px 0px 16px;
     }
 }
 
