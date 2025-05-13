@@ -369,6 +369,9 @@ a {
     .hero {
         padding-inline: 40px;
     }
+    .hero-content{
+        max-width: 1128px;
+    }
 }
 
 
@@ -406,7 +409,7 @@ a {
     }
 
     .hero-content{
-        max-width: 1208px;
+        max-width: 688px;
 
     }
 
