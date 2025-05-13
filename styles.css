@@ -23,6 +23,7 @@ header {
 
 .logo-img {
     padding: 29px 0 29px 40px;
+    cursor: pointer;
 }
 
 .menu {
@@ -410,8 +411,11 @@ a {
 
     .footer3 {
         flex-direction: column;
-        row-gap: 16px;
+        row-gap: 16px;   
+    }
 
+    .hero-img{
+        flex-direction: column;
     }
 }
 
@@ -427,7 +431,7 @@ a {
     }
 
     .hero {
-        max-width: 540px;
+        max-width: 540px; 
     }
 
     .hero-prices h1 {
